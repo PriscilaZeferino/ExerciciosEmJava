@@ -1,0 +1,139 @@
+public class StudyEnglish 
+{
+    public static void main (String [] args)
+    {
+        java.util.Scanner entrada = new java.util.Scanner(System.in);
+        int score = 0;
+        System.out.println("digite azul em inglês: ");
+        String blue = entrada.next();
+        while(true)
+        {
+            if (blue.equals(blue))
+            {
+                System.out.println("Voce acertou");
+                score = score + 5;
+                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                System.out.println("digite vermelho em inglês: ");
+                String red = entrada.next();
+                if (red.equals(red))
+                {
+                    System.out.println("Voce acertou");
+                    score = score + 5;
+                    System.out.println("Seus pontos somam um total de " + score + " pontos" );
+
+                    System.out.println("digite marrom em inglês: ");
+                    String brown = entrada.next();
+                    if (brown.equals(brown))
+                    {
+                        System.out.println("Voce acertou");
+                        score = score + 5;
+                        System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                    }
+                    else
+                    {
+
+                        System.out.println("Voce perdeu, por favor reinicie o jogo");
+                        System.out.println("Seus pontos somam um total de " + score + " pontos" );
+
+                        System.out.println("digite amarelo em inglês: ");
+                        String yellow = entrada.next();
+                        if ( yellow.equals( yellow))
+                        {
+                            System.out.println("Voce acertou");
+                            score = score + 5;
+                            System.out.println("Seus pontos somam um total de " + score + " pontos" );
+
+                            System.out.println("digite verde em inglês: ");
+                            String green = entrada.next();
+                            if ( green.equals( green))
+                            {
+                                System.out.println("Voce acertou");
+                                score = score + 5;
+                                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                System.out.println("digite preto em inglês: ");
+                                String black = entrada.next();
+                                if ( black.equals( black ))
+                                {
+                                    System.out.println("Voce acertou");
+                                    score = score + 5;
+                                    System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                    System.out.println("digite branco em inglês: ");
+                                    String white = entrada.next();
+                                    if ( white.equals( white))
+                                    {
+                                        System.out.println("Voce acertou");
+                                        score = score + 5;
+                                        System.out.println("Seus pontos somam um total de " + score + " pontos" );
+
+                                        System.out.println("digite rosa em inglês: ");
+                                        String pink = entrada.next();
+                                        if ( pink.equals( pink))
+                                        {
+                                            System.out.println("Voce acertou");
+                                            score = score + 5;
+                                            System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                            System.out.println("digite roxo em inglês: ");
+                                            String purple = entrada.next();
+                                            if ( purple.equals( purple))
+                                            {
+                                                System.out.println("Voce acertou");
+                                                score = score + 5;
+                                                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                            }
+                                            else
+                                            {
+
+                                                System.out.println("Voce perdeu, por favor reinicie o jogo");
+                                                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                            }
+                                        }
+                                        else
+                                        {
+                                            System.out.println("Voce perdeu, por favor reinicie o jogo");
+                                            System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                        }
+                                    }
+                                    else
+                                    {
+
+                                        System.out.println("Voce perdeu, por favor reinicie o jogo");
+                                        System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                    }
+                                }
+                                else
+                                {
+
+                                    System.out.println("Voce perdeu, por favor reinicie o jogo");
+                                    System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                                }
+                            }
+                            else
+                            {
+
+                                System.out.println("Voce perdeu, por favor reinicie o jogo");
+                                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                            }
+                        }
+                        else
+                        {
+
+                            System.out.println("Voce perdeu, por favor reinicie o jogo");
+                            System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                        }}
+                }
+                else
+                {
+
+                    System.out.println("Voce perdeu, por favor reinicie o jogo");
+                    System.out.println("Seus pontos somam um total de " + score + " pontos" );
+                }
+            }
+            else
+            {
+                System.out.println("Voce perdeu, por favor reinicie o jogo");
+                System.out.println("Seus pontos somam um total de " + score + " pontos" );
+
+            }
+        }
+    }
+}

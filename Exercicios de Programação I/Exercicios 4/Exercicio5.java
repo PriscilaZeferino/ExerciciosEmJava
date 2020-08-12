@@ -1,0 +1,47 @@
+/**
+ *5. Faça um programa que leia dois valores e realize uma das operações abaixo descritas abaixo. O
+     programa deve ser possibilitar a escolha do usuário por uma das opções.
+     1 – soma
+     2 – subtração
+     3 – multiplicação
+     4 – divisão
+ */
+public class Exercicio5
+{
+    public static void main (String [] args)
+    {
+        java.util.Scanner entrada = new java.util.Scanner(System.in);
+
+        System.out.println("1 - soma");
+        System.out.println("2 - subtração");
+        System.out.println("3 - multiplicação");
+        System.out.println("4 - divisão");
+
+        while(true){
+        System.out.println("Digite um numero de enter e digite outro");
+        double num1 = entrada.nextDouble();
+        double num2 = entrada.nextDouble();
+
+        System.out.println("Digite o numero do operador");
+        double op = entrada.nextDouble();
+
+        if (op == 1)
+        {
+            System.out.println((num1 + num2));
+        }
+        else if (op == 2)
+        {
+            System.out.println((num1 - num2));
+        }
+        else if (op == 3)
+        {
+            System.out.println((num1 * num2));
+        }
+        else if (op == 4)
+        {
+            System.out.println((num1 / num2));
+        }
+        break;
+
+    }}
+}

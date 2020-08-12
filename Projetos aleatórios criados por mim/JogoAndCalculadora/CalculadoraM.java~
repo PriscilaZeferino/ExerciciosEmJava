@@ -1,0 +1,22 @@
+public class CalculadoraM
+{
+    public static void main ( String [] args )
+    {
+      java.util.Scanner entrada  = new java.util.Scanner(System.in);
+      int binary = 0;
+      int binary2 = 1;
+      int opt = 0;
+      
+      System.out.println("Digite the first number: ");
+      binary = entrada.nextInt();
+     
+      System.out.println("Digite the second number: ");
+      binary2 = entrada.nextInt();
+      
+      System.out.println("Digite the number of operation: ");
+      opt = entrada.nextInt();
+  
+      
+      System.out.println(binary + binary2);
+    }
+}

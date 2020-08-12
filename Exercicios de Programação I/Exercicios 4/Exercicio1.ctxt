@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Exercicio1
+comment0.text=\r\n1.\ Elabore\ um\ programador\ que\ dada\ a\ idade\ de\ um\ nadador\ classifique-o\ em\ uma\ das\ seguintes\r\ncategorias.\ Mostrar\ na\ tela\ a\ idade\ e\ a\ categoria\ digitada\ pelo\ usu\u00E1rio\:\r\nInfantil\ A\ \=\ 5\ a\ 7\ anos\r\nInfantil\ B\ \=\ 8\ a\ 10\ anos\r\nJuvenil\ A\ \=\ 11\ a\ 13\ anos\r\nJuvenil\ B\ \=\ 14\ a\ 17\ anos\r\nAdulto\ \=\ maiores\ de\ 18\ anos\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

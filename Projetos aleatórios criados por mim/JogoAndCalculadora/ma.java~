@@ -1,0 +1,26 @@
+
+public class ma
+
+{
+    public static void main(String[]args)
+    {
+        java.util.Scanner entrada = new java.util.Scanner(System.in);
+
+        System.out.println("digite a operaçao que deseja realizar :");
+        String o = entrada.next();
+
+        int numII = entrada.nextInt();
+        int op1 =  numI * numII ;
+        int op2 =  numI + numII ;
+        int op3 =  numI / numII ;
+        int op4 =  numI - numII ;
+        if (o.equals ( numI * numII )) 
+            System.out.println(op1);    
+        if (o.equals (  numI + numII ))
+            System.out.println(op2);
+        if (o.equals  ( numI / numII))
+            System.out.println(op3);
+        if (o.equals ( numI - numII) )
+            System.out.println(op4);
+        }
+}

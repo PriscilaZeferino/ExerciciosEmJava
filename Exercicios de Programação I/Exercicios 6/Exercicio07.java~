@@ -1,0 +1,37 @@
+public class Exercicio07
+{
+    public static void main (String [] args )
+    {
+        java.util.Scanner entrada = new java.util.Scanner(System.in);
+        System.out.println("Código  Nome                Preço " );
+        System.out.println("123     Balas               0,20 " );
+        System.out.println("124     Barra de chocolate  2,50");
+        System.out.println("125     Chicletes           0,25");
+        System.out.println("Digite o codigo do produto");
+        double code = entrada.nextDouble();
+        System.out.println("Digite a quantidade do produto");
+        double quant = entrada.nextDouble();
+        if ( code == 123 )
+
+        {
+            double preco = 0.20 * quant ;
+            System.out.println("Voce deve pagar " + preco );
+        }
+        if (code == 124)
+        {
+            double preco1 = 2.50 * quant ;
+            System.out.println("Voce deve pagar " + preco1 );
+        }
+        if (code == 125)
+        {
+            double preco2 = 0.25 * quant ;
+            System.out.println("Voce deve pagar " + preco2 );
+
+        }
+        if ( code != 123 == code != 124 == code != 125 )
+
+        {
+            System.out.println("Code not found ");
+        }
+    }
+}

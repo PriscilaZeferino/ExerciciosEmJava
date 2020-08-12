@@ -1,0 +1,17 @@
+public class Exercicios01
+{
+    public static void main (String[]args)
+    {
+        java.util.Scanner teclado = new java.util.Scanner(System.in);
+        System.out.println("Digite um numero");
+        int num = teclado.nextInt();
+        if (num >= 0)
+        {
+            System.out.println("Ele e positivo");
+        }
+        else
+        {
+            System.out.println("Ele e negativo");   
+        }
+    }
+}

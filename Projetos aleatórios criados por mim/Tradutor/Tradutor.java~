@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+/**
+ *
+ * @author honurb
+ */
+public class Tradutor {
+    public String traduzIngles_Portugues(String palavra)//traduz palavra do inglês para Português
+    {
+        String traducao = "Palavra não encontrado no diconário";
+        Dicionario dicio = new Dicionario();
+        ArrayList <String> palavrasIng  = dicio.getArrayPalavrasIng();//Nosso array com palavras em Inglês
+        ArrayList <String> palavrasPort = dicio.getArrayPalavrasPort();//Nosso array com palavras em Português
+        for (int i = 0; i < palavrasIng.size(); i++) 
+        {  
+            if( palavrasIng.get(i).equals(palavra))//Compara se a palavra é igual
+            {
+              int indice = i;//Guarda o índice para podermos procurar no array com palavras em português
+              i = palavrasIng.size();//Deixa a variável i maior que o tamanho do array para sairmos do for
+              traducao = palavrasPort.get(indice);
+            }
+        }
+      System.out.println(traducao);
+      return traducao;  
+    }
+    public String traduzPortugues_Ingles(String palavra)//traduz palavra do Português para Inglês
+    {
+        String traducao = "Palavra não encontrado no diconário";
+        Dicionario dicio = new Dicionario();
+        ArrayList <String> palavrasIng  = dicio.getArrayPalavrasIng();//Nosso array com palavras em Inglês
+        ArrayList <String> palavrasPort = dicio.getArrayPalavrasPort();//Nosso array com palavras em Português
+        for (int i = 0; i < palavrasPort.size(); i++) 
+        {  
+            if( palavrasPort.get(i).equals(palavra))//Compara se a palavra é igual
+            {
+              int indice = i;//Guarda o índice para podermos procurar no array com palavras em Inglês
+              i = palavrasPort.size();//Deixa a variável i maior que o tamanho do array para sairmos do for
+              traducao = palavrasIng.get(indice);
+            }
+        }
+      System.out.println(traducao);
+      return traducao;  
+    }

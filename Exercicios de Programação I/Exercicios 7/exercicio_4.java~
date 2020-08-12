@@ -1,0 +1,18 @@
+public class exercicio_4
+{
+    public static void main (String[]args)
+   {
+       //inicia a entrada de dados
+    java.util.Scanner teclado = new java.util.Scanner(System.in);   
+    //Diz para o usuario digitar sua primeira nota e cria uma variavel apartir dela
+    System.out.println("Digite sua primeira nota");
+    int nota1 = teclado.nextInt();
+      //Diz para o usuario digitar sua segunda nota e cria uma variaveis que caculam a media a partir dela
+    System.out.println("Digite sua segunda nota");
+    int nota2 = teclado.nextInt();
+    int media = nota1 + nota2 ;
+    int media2= media/2;
+    //imprime na tela a nota do aluno
+    System.out.println("Sua media é " + media2);
+}
+}

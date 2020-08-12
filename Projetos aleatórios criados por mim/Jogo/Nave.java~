@@ -1,0 +1,7 @@
+public class Nave 
+import java.awt.Image;
+{ 
+ private int x, y;
+ private int dx, dy;
+ private Image =  imagem;
+}

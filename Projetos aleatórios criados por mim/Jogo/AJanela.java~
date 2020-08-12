@@ -1,0 +1,19 @@
+import javax.swing.JFrame;
+import javax.swing.JButton;
+public class janela extends JFrame
+{
+    public Pricipal()
+    {
+        add( new JButton ("inicio"));
+        add( new JButton ("ajuda"));
+        setTitle("Meu jogo");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        SetLocationRelativeTo(null);
+        setSize(500,500);
+        setVisible(true)
+    }
+    public static void main ( String [] args )
+    {
+        new janela ();
+    }
+}

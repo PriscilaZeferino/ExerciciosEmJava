@@ -1,0 +1,57 @@
+import java.sql.*; 
+import java.sql.*;
+import javax.swing.*;
+public class BancoDeDados
+{
+    {
+        Class.forName("sun.jdbc.odbc.JdbcObdcDriver");
+        Class.forName(com.mysql.jdbc.Driver);
+        Connection conexão = DriverManager.getConnection((jdbc)odbcIJPlanetas);
+        Statement stmt= conexão.createStatement();
+        int reg =stmt.executeUpdate(delete);
+        from planeta;
+        where nome=Maria;
+
+        ResultSet rs = stmt.executeQuery(select); 
+        
+        while( rs.next() ) {    //move o curso de registros
+
+            String Nome=rs.getString(“nome”);  // obtém o valor do campo “nome” da tabela
+
+            System.out.println(Nome);   
+
+        }
+        conexão.close();
+        try{ //tratamento de erros
+
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");//Driver JDBC – Fonte de Dados ODBC
+
+            //conecta no BD, as aspas vazias representam o Login: usuário e senha.
+
+            Connection con = DriverManager.getConnection("jdbc:odbc:BDCadastro","","");
+
+            Statement stmt = con.createStatement();       //objeto comdo sql
+
+            int cadMat=Integer.parseInt( jTextField1.getText() );
+
+            String cadNome = jTextField2.getText();      //obtém nome digitado
+
+            stmt.executeUpdate("insert into TabFicha (Matricula,Nome) values ('" + cadMat + "','" + cadNome +  "')" );
+
+            JOptionPane.showMessageDialog( this, " Dados Salvos! ");
+
+            con.close();  // fecha conexão com BD
+
+        }  catch( SQLException e){ //trata os erros SQL
+
+            JOptionPane.showMessageDialog(this, "Erro Cmdo SQL " + e.getMessage() );
+
+        } catch( ClassNotFoundException e){      //trata erros de conexão
+
+            JOptionPane.showMessageDialog( this, " Driver não encontrado " );
+
+        }
+
+
+    }
+}

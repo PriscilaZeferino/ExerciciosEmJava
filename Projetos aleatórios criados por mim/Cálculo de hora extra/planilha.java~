@@ -1,0 +1,24 @@
+public class planilha
+{
+    public static void main (String [] args)
+    {
+        java.util.Scanner entrada = new java.util.Scanner(System.in);
+        
+        System.out.println(" Por favor, digite o seu salario ");
+        double salario = entrada.nextDouble(); 
+        
+        System.out.println(" Por favor, digite o valor de horas mensais ");
+        double horaM = entrada.nextDouble();
+        
+        System.out.println(" por favor, digite o valor de horas a mais que trabalhou");
+        double Hwork = entrada.Double();
+        
+        double salario_hora = salario / horaM ;
+        double Vhora_extra = salario_hora +(salario_hora*50)/100;
+        double money = Hwork * Vhora_extra;
+        
+        System.out.println(" O valor total á ser recebido em dinheiro é igual: R$ " + money);
+        
+    }
+}
+ 

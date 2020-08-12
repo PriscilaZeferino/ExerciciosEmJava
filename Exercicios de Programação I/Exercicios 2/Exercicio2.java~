@@ -1,0 +1,16 @@
+public class Exercicio2
+{
+    public static void main (String []args)
+    {
+        java.util.Scanner teclado = new java.util.Scanner (System.in);
+        
+        System.out.println("Digite quantas pasteis sua amiga comeu:");
+        int amiga = teclado.nextInt();
+        
+        int eat = amiga/3*4;
+        int juntas = eat + amiga;
+        System.out.println("Voces duas comeram " + juntas );
+        
+        
+}
+}

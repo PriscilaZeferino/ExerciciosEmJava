@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Exercicio3
+comment0.text=\r\n3.\ Fa\u00E7a\ um\ programa\ capaz\ de\ ler\ um\ n\u00FAmero\ de\ faltas\ de\ um\ aluno.\ Caso\ forem\ mais\ que\ sete\ faltas,\ o\r\naluno\ estar\u00E1\ automaticamente\ reprovado.\ Portanto,\ deve-se\ mostrar\ a\ mensagem\ reprovado\ por\r\nfreq\u00FC\u00EAncia.\ Sen\u00E3o\ mostrar\ a\ mensagem\ \u201CFrequ\u00EAncia\ suficiente\ para\ aprova\u00E7\u00E3o\!\u201D.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
