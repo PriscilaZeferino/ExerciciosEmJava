@@ -1,7 +1,7 @@
 # 📚 EXERCICIOS
 
 
-### Este projeto contém um conjunto de resoluções de exercicios simples da disciplina de Programação I. EMI - INFO / IFRS Osório 2016 utilizando os conteúdos apresentados em aula e também alguns projetos simples que produzi como forma de estudar. Alguns estão funcionais, um ou outro tem alguns bugs, mas a maioria está 100% funcional. 
+### Este projeto contém um conjunto de resoluções de exercicios simples da disciplina de Programação I. EMI - INFO / IFRS Osório 2016 utilizando os conteúdos apresentados em aula e também alguns projetos simples que foram produzidos como forma de estudo. Alguns estão funcionais, um ou outro tem bugs, mas a maioria dos projetos e exercicios estão  100% funcional. 
 
 Tabela de conteúdos
 =================
@@ -15,11 +15,11 @@ Tabela de conteúdos
 
 </p>
 
-# 🚀 OBJETIVO: 
+## 🚀 OBJETIVO: 
  
  - Praticar todos os conceitos sobre Java apresentados na aula de Programação I.
 
-# 💻 TECNOLOGIAS:
+## 💻 TECNOLOGIAS:
  
  - JAVA
 
@@ -41,8 +41,8 @@ Este projeto está sob a licença <a href="https://github.com/PriscilaZeferino/P
 
 ## 👧🏻 AUTORA
 
- Feito com 🧡 por Priscila Zeferino.
- Para estudo da disciplina de Programação I. EMI - INFO / IFRS Osório 2016 
+Feito com 🧡 por Priscila Zeferino.
+Como estudo da disciplina de Programação I. EMI - INFO / IFRS Osório 2016 
  
 ##### ✉ Contato:
 
