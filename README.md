@@ -1,4 +1,4 @@
-# 📚 EXERCICIOS
+# 📚 EXERCÍCIOS
 
 
 ### Este projeto contém um conjunto de resoluções de exercicios simples da disciplina de Programação I. EMI - INFO / IFRS Osório 2016 utilizando os conteúdos apresentados em aula e também alguns projetos simples que foram produzidos como forma de estudo. Alguns estão funcionais, um ou outro tem bugs, mas a maioria dos projetos e exercicios estão  100% funcional. 
